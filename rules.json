@@ -43,6 +43,9 @@
       "www.everyeye.it":{
          "content":"//div[@id=\"id_corpo_articolo\"]"
       },
+      "www.flickr.com":{
+         "content":"//span[@class=\"photo-desc\"]"
+      },
       "www.huffingtonpost.com":{
          "content":"//div[@id=\"mainentrycontent\"]"
       },
