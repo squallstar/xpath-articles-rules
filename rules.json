@@ -1,6 +1,7 @@
 
 {
    "common":{
+      "content":"//div[@id=\"article-body\" or @class=\"article-body\" or @itemprop=\"articleBody\"]",
       "image": "//*/meta[@property=\"og:image\")]"
    },
    "hosts": {
@@ -33,7 +34,7 @@
       },
       "www.bbc.co.uk":{
          "cleanup":true,
-         "content":"//p[@class=\"introduction\"]"
+         "content":"//div[@class=\"story-body\"] || //p[@class=\"introduction\"]"
       },
       "www.creativebloq.com":{
          "content":"//div[@class=\"copy\"]"
@@ -43,6 +44,9 @@
       },
       "www.engadget.com":{
          "content":"//div[@class=\"article-content\"]"
+      },
+      "www.economist.com"{
+         "content":"//div[@class=\"main-content\"]"
       },
       "www.entrepreneur.com":{
          "content":"//p[@class=\"content-block\"]"
