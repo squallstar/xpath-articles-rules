@@ -76,7 +76,7 @@
       },
       "www.theverge.com":{
          "cleanup":true,
-         "content":"//div[@id=\"article-body\" or @class=\"article-body\" or @class=\"timn__body-intro\"]"
+         "content":"//div[@id=\"article-body\" or @class=\"article-body\" or @class=\"timn__body-intro\" or @class=\"m-article__entry-container\"]"
       },
       "www.theguardian.com":{
          "cleanup":true,
